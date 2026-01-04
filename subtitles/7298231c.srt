@@ -1,0 +1,31 @@
+1
+00:00:00,000 --> 00:00:21,936
+Welcome everyone. In this session, we are going to build a small but very practical automation project using Python. This project is beginner friendly and focuses on solving a real problem that we all face in our daily computer usage.
+
+2
+00:00:21,936 --> 00:00:49,128
+Before we start coding, let me briefly introduce myself. I am currently working as a Python Developer Intern, and I enjoy building automation tools that save time and effort. In this video, I will walk you through an end to end Python project that demonstrates how automation works in real life.
+
+3
+00:00:49,128 --> 00:01:19,416
+Think about your downloads or desktop folder. Over time, it gets cluttered with different types of files such as documents, images, videos, and installers. Manually sorting these files takes time and becomes frustrating. This brings us to an important question: can Python handle this task for us automatically?
+
+4
+00:01:19,416 --> 00:01:42,984
+To solve this problem, we will rely on some core Python concepts that allow programs to interact with the operating system. These concepts enable Python to read files, understand file types, create folders, and move files without any manual effort.
+
+5
+00:01:42,984 --> 00:02:15,551
+The logic of this project is straightforward but powerful. First, the program identifies a target folder. Then it scans every file inside that folder. Based on the file type, it decides where the file should go. If a required folder does not exist, Python creates it automatically and moves the file to the correct location.
+
+6
+00:02:15,551 --> 00:02:48,023
+Now let us understand how the code works. The script starts by accessing the target directory. It then loops through all the files one by one. For each file, it checks the extension and creates a folder with the same name as the extension if needed. Finally, the file is moved into that folder, resulting in a neatly organized directory.
+
+7
+00:02:48,023 --> 00:03:10,823
+By completing this project, you now understand how Python can automate repetitive tasks. You have seen how a few lines of code can save significant manual effort. This same concept can be extended to many real world automation problems.
+
+8
+00:03:10,823 --> 00:03:32,399
+That brings us to the end of this video. I hope this project helped you understand the power of Python automation. Keep practicing, keep building projects, and most importantly, enjoy coding. Thank you for watching.

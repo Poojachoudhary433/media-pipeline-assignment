@@ -1,0 +1,87 @@
+{
+  "project_metadata": {
+    "title": "Python Automation Project: File Organizer",
+    "author": "Your Name",
+    "date": "2025-12-31",
+    "total_duration": "10 min"
+  },
+  "slides": [
+    {
+      "slide_id": 0,
+      "title": "Building a File Organizer using Python",
+      "subtitle": "A Simple Python Automation Project",
+      "image": "images/Intro.jpg",
+      "duration": "1 min"
+    },
+    {
+      "slide_id": 1,
+      "title": "Introduction",
+      "description": [
+        "Hello everyone ",
+        "I am a Python Developer Intern",
+        "In this video, I will demonstrate a simple Python automation project that helps organize files automatically."
+      ,
+          "Automation is one of the most powerful uses of Python, and this project shows how we can use it in real life."],
+      "duration": "1 min"
+    },
+    {
+      "slide_id": 2,
+      "title": "Problem Statement",
+      "description": ["Our download or desktop folder often becomes messy with files like:",                       
+                    "PDFs, Images, Videos, Documents",
+                    "Can we automate file organization using Python?",
+                    "YES!"],
+      "duration": "1 min"
+    },
+    {
+      "slide_id": 3,
+      "title": "Python Concepts Used",
+      "description": [
+        "os module",
+        "shutil module",
+        "File extensions",
+        "Conditional statements"
+      ,
+       "These concepts help Python interact directly with the operating system."],
+      "duration": "2 min"
+    },
+    {
+      "slide_id": 4,
+      "title": "Project Logic",
+      "description": [
+        "Select the target folder",
+        "Read all files from the folder",
+        "Check file extensions",
+        "Create folders if not present",
+        "Move files into respective folders"
+      ,
+       "This logic runs automatically with a single Python script."],
+      "duration": "2 min"
+    },
+    {
+      "slide_id": 5,
+      "title": "Python Code: File Organizer",
+      "code_block": "import os\nimport shutil\n\npath = \"C:/Users/YourName/Downloads\"\n\nfiles = os.listdir(path)\n\nfor file in files:\n    filename, extension = os.path.splitext(file)\n\n    if extension == \"\":\n        continue\n\n    extension = extension[1:]\n\n    folder_path = os.path.join(path, extension)\n\n    if not os.path.exists(folder_path):\n        os.makedirs(folder_path)\n\n    shutil.move(\n        os.path.join(path, file),\n        os.path.join(folder_path, file)\n    )\n\nprint(\"Files organized successfully!\")",
+      "duration": "4 min"
+    },
+    {
+      "slide_id": 6,
+      "title": "Conclusion",
+      "description": [
+        "How Python automates tasks",
+        "How to organize files using code",
+        "Practical use of os and shutil modules"
+      ,
+       "Automation makes Python extremely powerful. Thank you for watching! "],
+      "duration": "1 min"
+    },
+    {
+      "slide_id": 7,
+      "title": "Thank You",
+      "subtitle": "Happy Coding ",
+      "description":["your.email@example.com"],
+      "image": "images/Thank_you.jpg",
+      "duration": "1 min"
+    }
+  ]
+}

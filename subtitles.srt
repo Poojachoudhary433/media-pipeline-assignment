@@ -1,0 +1,67 @@
+1
+00:00:00,000 --> 00:00:10,000
+Welcome everyone. In this session, we are going to build a small but very practical automation project using Python.
+
+2
+00:00:10,000 --> 00:00:20,000
+This project is beginner friendly and focuses on solving a real problem that we all face in our daily computer usage.
+
+3
+00:00:20,000 --> 00:00:32,000
+Before we start coding, let me briefly introduce myself. I am currently working as a Python Developer Intern, and I enjoy building automation tools that save time and effort.
+
+4
+00:00:32,000 --> 00:00:45,000
+In this video, I will walk you through an end to end Python project that demonstrates how automation works in real life.
+
+5
+00:00:45,000 --> 00:00:58,000
+Think about your downloads or desktop folder. Over time, it gets cluttered with different types of files such as documents, images, videos, and installers.
+
+6
+00:00:58,000 --> 00:01:12,000
+Manually sorting these files takes time and becomes frustrating. This brings us to an important question: can Python handle this task for us automatically?
+
+7
+00:01:12,000 --> 00:01:25,000
+To solve this problem, we will rely on some core Python concepts that allow programs to interact with the operating system.
+
+8
+00:01:25,000 --> 00:01:38,000
+These concepts enable Python to read files, understand file types, create folders, and move files without any manual effort.
+
+9
+00:01:38,000 --> 00:01:55,000
+The logic of this project is straightforward but powerful. First, the program identifies a target folder. Then it scans every file inside that folder.
+
+10
+00:01:55,000 --> 00:02:12,000
+Based on the file type, it decides where the file should go. If a required folder does not exist, Python creates it automatically and moves the file to the correct location.
+
+11
+00:02:12,000 --> 00:02:30,000
+Now let us understand how the code works. The script starts by accessing the target directory and loops through all the files one by one.
+
+12
+00:02:30,000 --> 00:02:48,000
+For each file, it checks the extension and creates a folder with the same name as the extension if needed.
+
+13
+00:02:48,000 --> 00:03:05,000
+Finally, the file is moved into that folder, resulting in a neatly organized directory.
+
+14
+00:03:05,000 --> 00:03:22,000
+By completing this project, you now understand how Python can automate repetitive tasks and save significant manual effort.
+
+15
+00:03:22,000 --> 00:03:38,000
+This same concept can be extended to many real world automation problems beyond file organization.
+
+16
+00:03:38,000 --> 00:03:55,000
+That brings us to the end of this video. I hope this project helped you understand the power of Python automation.
+
+17
+00:03:55,000 --> 00:04:10,000
+Keep practicing, keep building projects, and most importantly, enjoy coding. Thank you for watching.
